@@ -1,3 +1,14 @@
+let inputBuscarFilme = document.querySelector("#input-buscar-filme");
+let btnBuscarFilme = document.querySelector("#btn-buscar-filme");
+
+
+btnBuscarFilme.onclick = () => {
+  if(inputBuscarFilme.value.length > 0){
+    fetch("")
+  }
+  return false;
+}
+/*
 let ator = new Ator(1, "JOHN WAYNE");
 
 console.log(ator);
@@ -20,7 +31,6 @@ let elenco =[
   new Ator(4, "Joe Pantoliano"),
   new Ator(5, "Hugo Weaving"),
   new Ator(6, "Antony Ray Parker"),
-
 ]
 
 let sinopse = "Um jovem programador (Keanu Reeves) é atormentado por estranhos pesadelos nos quais sempre está conectado por cabos a um imenso sistema de computadores do futuro.";
@@ -41,4 +51,7 @@ let filme = new Filme(
   null
 );
 
+
+
 console.log(filme);
+*/
